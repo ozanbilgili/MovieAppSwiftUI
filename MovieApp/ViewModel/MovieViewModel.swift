@@ -10,8 +10,10 @@ import Foundation
 //97e39c58399da2856414c4aaba6eebb3 API KEY
 
 class MovieViewModel: ObservableObject {
+
     @Published var movie: Movie?
     @Published var selectedGenre: Genre?
+    @Published var favorites = [Movie.Result]()
     
     private var currentPage: Int = 1
     private var totalPages: Int = 1
@@ -70,4 +72,17 @@ class MovieViewModel: ObservableObject {
             fetchMovies(page: currentPage + 1)
         }
     }
+    
+    func addFavorite(_ movie: Movie.Result) {
+            if !favorites.contains(where: { $0.id == movie.id }) {
+                favorites.append(movie)
+            }
+        }
+
+        func removeFavorite(_ movie: Movie.Result) {
+            if let index = favorites.firstIndex(where: { $0.id == movie.id }) {
+                favorites.remove(at: index)
+            }
+        }
 }
+

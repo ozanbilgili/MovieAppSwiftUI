@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1071C4832A3CAE8D00FC055D /* FavoriteMovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1071C4822A3CAE8D00FC055D /* FavoriteMovieView.swift */; };
 		10A231C42A3C5D36009FC60E /* MovieAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A231C32A3C5D36009FC60E /* MovieAppApp.swift */; };
 		10A231C62A3C5D36009FC60E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A231C52A3C5D36009FC60E /* ContentView.swift */; };
 		10A231C82A3C5D38009FC60E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10A231C72A3C5D38009FC60E /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1071C4822A3CAE8D00FC055D /* FavoriteMovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteMovieView.swift; sourceTree = "<group>"; };
 		10A231C02A3C5D36009FC60E /* MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10A231C32A3C5D36009FC60E /* MovieAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAppApp.swift; sourceTree = "<group>"; };
 		10A231C52A3C5D36009FC60E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				10A231C52A3C5D36009FC60E /* ContentView.swift */,
 				10A231DA2A3C6598009FC60E /* MovieDetailView.swift */,
 				10A231DE2A3C7C55009FC60E /* FilterView.swift */,
+				1071C4822A3CAE8D00FC055D /* FavoriteMovieView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				10A231C42A3C5D36009FC60E /* MovieAppApp.swift in Sources */,
 				10A231D52A3C5EAF009FC60E /* Movie.swift in Sources */,
 				10A231DD2A3C7BAE009FC60E /* Genre.swift in Sources */,
+				1071C4832A3CAE8D00FC055D /* FavoriteMovieView.swift in Sources */,
 				10A231DB2A3C6598009FC60E /* MovieDetailView.swift in Sources */,
 				10A231D72A3C5EC6009FC60E /* MovieViewModel.swift in Sources */,
 			);
