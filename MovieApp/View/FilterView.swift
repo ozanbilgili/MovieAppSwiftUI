@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import CoreData
 
 struct FilterView: View {
     @ObservedObject var viewModel: MovieViewModel
@@ -40,9 +41,5 @@ struct FilterView: View {
     }
 }
 
-struct FilterView_Previews: PreviewProvider {
-    static var previews: some View {
-        FilterView(viewModel: MovieViewModel())
-    }
-}
+
 

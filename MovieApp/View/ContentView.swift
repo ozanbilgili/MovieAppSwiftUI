@@ -6,10 +6,13 @@
 //
 
 import SwiftUI
+import CoreData
+
 
 struct ContentView: View {
     @StateObject var viewModel = MovieViewModel()
     @State private var showingFilter = false
+    
 
     var body: some View {
         TabView {

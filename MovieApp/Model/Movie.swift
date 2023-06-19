@@ -25,7 +25,7 @@ struct Movie: Codable, Identifiable {
     // MARK: - Result
     struct Result: Codable, Identifiable {
         let adult: Bool
-        var backdropPath: String?
+        var backdropPath: String
         let genreIDS: [Int]
         let id: Int
         let originalLanguage, originalTitle, overview: String
@@ -34,7 +34,7 @@ struct Movie: Codable, Identifiable {
         let releaseDate, title: String
         let video: Bool
         let voteAverage: Double
-        let voteCount: Int
+        let voteCount: Int64
 
         enum CodingKeys: String, CodingKey {
             case adult

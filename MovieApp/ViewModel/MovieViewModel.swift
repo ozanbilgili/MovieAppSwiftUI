@@ -76,6 +76,7 @@ class MovieViewModel: ObservableObject {
     func addFavorite(_ movie: Movie.Result) {
             if !favorites.contains(where: { $0.id == movie.id }) {
                 favorites.append(movie)
+                
             }
         }
 
